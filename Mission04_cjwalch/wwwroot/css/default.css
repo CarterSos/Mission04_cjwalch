@@ -1,0 +1,66 @@
+﻿/* this is my custom css to add styling on top of the css from bootstrap 
+    most of it is how I made three columns and tried to make things look nice
+*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:lightsteelblue;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+}
+.column2 {
+    float: left;
+    width: 34%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+p {
+    font-size: 25px;
+}
+.column3 {
+    float: left;
+    width: 34%;
+    font-size: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h3 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+    color: dodgerblue;
+}
+.blankSpace{
+    padding:120px;
+}
+.blankSpace2 {
+    padding: 30px;
+}
+li {
+    font-size: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    font-size: 20px;
+    color: indianred;
+    width: 150px;
+    display: inline-block;
+}
+

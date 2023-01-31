@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Carter Mission 4</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon (8).ico" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Carter Walch</h1>
+    <div class="blankSpace2">
+        <p>Also known as 'Cool Guy Walch'</p>
+    </div>
+    <div class="row">
+        <div class="column1">
+            <img src="img/carterTrumpet.jpg" style="width: 500px; height: auto;" /> <!--picture of me!-->
+        </div>
+        <div class="column2">
+            <div>
+                <h3>What I am hoping to get out of IS 413:</h3> <!--paragraph of my hopes for IS 413-->
+                <p>
+                    I am excited for IS 413 because I get to further my knowledge of Web Development with a new framework
+                    and programming language. I am hoping to really learn the principles taught in this class to be able to easily create personal projects with asp.net and c#.
+                    I know it will add a lot of value to my resume and I want to really internalize what is taught to be able to use in the industry in my career.
+                </p>
+            </div>
+            <div class="blankSpace"></div>
+            <div>
+                <h2>&lArr; This is a picture of me and my jazz combo!</h2>
+            </div>
+        </div>
+        <div class="column3">
+            <div>
+                <h3>Here are my top three jobs that I am hoping to pursue after graduation:</h3> <!--future career paths-->
+                <ol>
+                    <li>Software Developer</li>
+                    <li>Database Administrator</li>
+                    <li>Data Analyst</li>
+                </ol>
+            </div>
+            <div class="blankSpace2"></div>
+            <div>
+                <h3>Grade Calculator</h3>
+                <form action="/" method="post">     <!--this form takes input as a percentage for each grade category in the syllabus-->
+                    <label>Assignments:</label>
+                    <input id="grAss" /><br />
+                    <label>Group Project:</label>
+                    <input id="grGP" /><br />
+                    <label>Quizzes:</label>
+                    <input id="grQuiz" /><br />
+                    <label>Midterm Exam:</label>
+                    <input id="grME" /><br />
+                    <label>Final Exam:</label>
+                    <input id="grFE" /><br />
+                    <label>INTEX:</label>
+                    <input id="grIntex" /><br />
+
+                    <input id="btnCalculate" type="button" value="Calculate Final Grade" />
+                    <label id="result"></label>     <!--the javascript then calculates the final letter grade and outputs it back to the form-->
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/gradeCalc.js"></script>
+</body>
+</html>
