@@ -1,5 +1,8 @@
 ﻿/* this is my custom css to add styling on top of the css from bootstrap 
     most of it is how I made three columns and tried to make things look nice
+    
+    NOTE: I finished this on my monitor at home and after running it on my laptop the columns aren't aligned
+    big oof
 */
 
 body {
@@ -9,11 +12,11 @@ body {
 
 .column1 {
     float: left;
-    width: 30%;
+    width: 35%;
 }
 .column2 {
     float: left;
-    width: 34%;
+    width: 30%;
     border-width: 1px;
     border-style: solid;
     border-color: white;
@@ -25,7 +28,7 @@ p {
 }
 .column3 {
     float: left;
-    width: 34%;
+    width: 35%;
     font-size: 20px;
     border-width: 1px;
     border-style: solid;
