@@ -3,7 +3,10 @@
 
 ////Build a JavaScript program that calculates and displays both a final percentage and a letter grade
 ////using the "Grade Calculator" form entries based on the weights listed in the syllabus.Use
-////jQuery selectors(i.e.the “$”) in your program.Print the letter grade to the form(not in an alert.)// assignments      50 %// Group Project    10 %
+////jQuery selectors(i.e.the “$”) in your program.Print the letter grade to the form(not in an alert.)
+
+// assignments      50 %
+// Group Project    10 %
 // Quizzes          10 %
 // Midterm Exam     10 %
 // Final Exam       10 %
